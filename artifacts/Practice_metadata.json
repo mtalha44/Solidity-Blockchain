@@ -4,7 +4,35 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "checkBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "etherTransfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "payEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +61,11 @@
 	},
 	"sources": {
 		"identity.sol": {
-			"keccak256": "0xd7bcb05ffe5d566a96e9850971099dfb45de11c0d2ebd6cb4fd8570bcb9d9f40",
+			"keccak256": "0x29626c69e4a5928a5fb958cf23a67fdd1e49a59de2435e587671698567c1c207",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://1c4b06ea59dc14ce285f206c6bd921eb479abf50ce343645c7265cde137057a7",
-				"dweb:/ipfs/QmUyFScoMMx3UKuBj5M8dgR15bP3iSZXts1yPFhPypq3Lz"
+				"bzz-raw://3324139e92cdc98f4978f6996e94ad2ecdfb997862ccbcb302d3a43546a2f395",
+				"dweb:/ipfs/QmdyT6bLFysLrLaXY1BQRiY8kb7qfvCph85c1PUf8DcghV"
 			]
 		}
 	},

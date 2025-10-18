@@ -116,5 +116,109 @@ contract Practice
     //     }
     // }
 
-    
+    //enum:
+
+    // enum State { ordered , shiped , received }
+
+    // State public currentState;
+
+    // constructor()
+    // {
+    //     currentState = State.ordered;
+    // }
+
+    // function Shiped() public
+    // {
+    //     require(currentState == State.ordered , "Already Shiped or Recieved");
+    //     currentState = State.shiped;
+    // }
+
+    // function recieved() public 
+    // {
+    //     require(currentState == State.shiped , "Already Shiped or Recieved" );
+    //     currentState = State.received;
+    // }
+
+    // function getStatusLevel() view public returns (uint)
+    // {
+    //     return uint(currentState);
+    // }
+
+    //mapping uint => string
+
+    // mapping ( uint => string ) public _rollno;
+    // function setStudent( uint _key , string memory _name ) public 
+    // {
+    //     _rollno[_key] = _name;
+    // }
+    // function getStudent(uint _key) view public returns (string memory)
+    // {
+    //     return _rollno[_key];
+    // }
+
+    //mapping uint to struct
+
+    // struct Student
+    // {
+    //     string name;
+    //     string class;
+    // }
+
+    // mapping( uint => Student ) public data;
+
+    // function setter(uint _rollno, string memory _name , string memory _class) public
+    // {
+    //     data[_rollno] = Student( _name , _class );
+    // }
+
+    //storage vs memory
+
+    // string[] public students = ["Talha", "Khalid", "Bilal", "Hamza"];
+
+    // //it will change the real array, becuase test points towards students array ( means it oly hold adress )
+    // function stor() public
+    // {
+    //     string[] storage test = students;
+    //     test[0] = "Change";
+    // }
+
+    // //actual array of students will not be changed, because it create a copy of array in memory.
+    // function mem() public view
+    // {
+    //     string[] memory test = students;
+    //     test[0] = "Change";
+    // }
+
+    //Global Variables
+
+    // function globalVariables() view public returns ( uint block_no, uint timestamp, address msgSender)
+    // {
+    //     return (block.number, block.timestamp , msg.sender);
+    // }
+
+    address payable user  = payable(0x78731D3Ca6b7E34aC0F824c42a7cC18A495cabaB);
+    // pay ether to contracts 
+    function payEther() payable public 
+    {
+
+    } 
+
+    // //Checking balance of contracts
+
+    function checkBalance() public view returns (uint)
+    {
+        return address(this).balance;
+    }
+
+    // transfer ether to account
+
+
+    function etherTransfer() public
+    {
+        require(address(this).balance >= 1, "Isuffiecient Balance");
+        user.transfer(1 ether);
+    }
+
+
+
 }
