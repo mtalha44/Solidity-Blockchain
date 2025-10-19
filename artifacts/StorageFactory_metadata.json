@@ -1,0 +1,117 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "DeployOtherContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_indexno",
+						"type": "uint256"
+					}
+				],
+				"name": "sfGet",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_indexno",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					}
+				],
+				"name": "sfStore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "simpleContract",
+				"outputs": [
+					{
+						"internalType": "contract Practice",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"StorageFactory.sol": "StorageFactory"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"StorageFactory.sol": {
+			"keccak256": "0x434db604d140b97ea8a777bc79b24f9ffabf8ae1bf7bec042e71f5af7c2dfc36",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://22251cb3a4611943936e5f8e317fb43cfd1c4ec789c8b549eb6297fdefff9020",
+				"dweb:/ipfs/QmYYCbQmSUs3iwE7yyXiefq1kwahsfasd2Fu76YDJ4d3ie"
+			]
+		},
+		"identity.sol": {
+			"keccak256": "0x1098d0c220986319efc3d28d5a174369776a6f735d9c1273e1242c84488bc54e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://578af0d143febb6b29f7d4eed0f019bc5b2455701e35cf02f630543766e56e6d",
+				"dweb:/ipfs/QmQeW5L3rtcLLRWGskCQLPcjS15xh9mMvtBfXrsaavvn3o"
+			]
+		}
+	},
+	"version": 1
+}

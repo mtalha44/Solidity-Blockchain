@@ -58,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"identity.sol": "Practice"
+			"ExtraStorageFactory.sol": "ExtraStorageFactory"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -72,6 +72,14 @@
 		"remappings": []
 	},
 	"sources": {
+		"ExtraStorageFactory.sol": {
+			"keccak256": "0x18655405dac1fe11f1a7ce4ab1991a814a7301bb00bb377bd69e00f1be347b37",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://014d404bb3e69ebac59abbc028a927a1d8e346566b0fa2da12e7e7820344057f",
+				"dweb:/ipfs/QmZdTFYW6snG6Mxnt9pSddp8ZLYoPadfbcKYEz6p2hWiZv"
+			]
+		},
 		"identity.sol": {
 			"keccak256": "0xf2e8498897ee325d26005d50057e5e85e1a48fdc8044a597fdb0e7a2151c49a9",
 			"license": "GPL-3.0",

@@ -196,29 +196,106 @@ contract Practice
     //     return (block.number, block.timestamp , msg.sender);
     // }
 
-    address payable user  = payable(0x78731D3Ca6b7E34aC0F824c42a7cC18A495cabaB);
-    // pay ether to contracts 
-    function payEther() payable public 
-    {
+    // address payable user  = payable(0x78731D3Ca6b7E34aC0F824c42a7cC18A495cabaB);
+    // // pay ether to contracts 
+    // function payEther() payable public 
+    // {
 
-    } 
+    // } 
 
     // //Checking balance of contracts
 
-    function checkBalance() public view returns (uint)
-    {
-        return address(this).balance;
-    }
+    // function checkBalance() public view returns (uint)
+    // {
+    //     return address(this).balance;
+    // }
 
-    // transfer ether to account
+    // // transfer ether to account
 
 
-    function etherTransfer() public
-    {
-        require(address(this).balance >= 1, "Isuffiecient Balance");
-        user.transfer(1 ether);
-    }
+    // function etherTransfer() public
+    // {
+    //     require(address(this).balance >= 1, "Isuffiecient Balance");
+    //     user.transfer(1 ether);
+    // }
 
+    //Creating struct and then storing multiple data(structures) into an array of structure..
+    // struct Person
+    // {
+    //     uint phno;
+    //     string name;
+    // }
+    // Person[] public person;
+
+    // function setValues(uint _no, string memory _name) public
+    // {
+    //     Person memory newPerson = Person(_no,_name);
+    //     person.push(newPerson);
+    // }
+
+
+    //Visibility
+
+/*
+VISIBILITY SPECIFIERS IN SOLIDITY
+
+public:
+   - Accessible from:
+        Inside the same contract
+        Inherited (child) contracts
+        External calls (other contracts or dApp frontend)
+   - A public state variable automatically gets a getter function.
+   - Example use: Open functions anyone can call (like updating a balance).
+
+private:
+   - Accessible from:
+        Only within the same contract
+   - NOT accessible in derived (child) contracts or externally.
+   - Used for internal logic or sensitive data.
+   - Example use: Internal counters or security logic not exposed outside.
+
+internal:
+   - Accessible from:
+        Inside the same contract
+        Inherited (child) contracts
+   - NOT accessible from outside the contract.
+   - Similar to 'protected' in OOP languages.
+   - Example use: Functions reused by child contracts.
+
+external:
+   - Accessible from:
+        Only from outside the contract
+        NOT directly callable from inside (must use 'this.externalFunc()')
+   - More gas efficient when called externally.
+   - Example use: Functions meant for users, not internal logic.
+*/
+    // function A() public pure returns (uint)
+    // {
+    //     return 1;
+    // }
+    // function B() private pure returns (uint)
+    // {
+    //     return 2;
+    // }
+    // function C() internal pure returns (uint)
+    // {
+    //     return 3;
+    // }
+    // function D() external  pure returns (uint)
+    // {
+    //     return 4;
+    // }
+
+   uint public number;
+
+   function store(uint _number) public virtual {
+       number = _number;
+   }
+
+   function retrieve() public view returns(uint) {
+       return number;
+   }
+    
 
 
 }
