@@ -1,0 +1,61 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "add",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "numb",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"safeMath.sol": "safeMath"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"safeMath.sol": {
+			"keccak256": "0x9eef596621ce56ec849c0b91e43a87647adc670da7ae7f1c419a951d1a73050f",
+			"urls": [
+				"bzz-raw://bc90c6ed51ecf2ff427d0630616999464618bd50e9dcf9612d47e07aa26d68a1",
+				"dweb:/ipfs/QmPNLN8HB3Ru71xKeRbNmhxhwjG2CGiUgz5X3DS2dRBbM4"
+			]
+		}
+	},
+	"version": 1
+}
