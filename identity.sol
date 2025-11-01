@@ -144,7 +144,7 @@ contract Practice
     //     return uint(currentState);
     // }
 
-    //mapping uint => string
+    //mapping uint => string     
 
     // mapping ( uint => string ) public _rollno;
     // function setStudent( uint _key , string memory _name ) public 
@@ -163,7 +163,7 @@ contract Practice
     //     string name;
     //     string class;
     // }
-
+   
     // mapping( uint => Student ) public data;
 
     // function setter(uint _rollno, string memory _name , string memory _class) public

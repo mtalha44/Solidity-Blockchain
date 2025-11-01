@@ -73,11 +73,11 @@
 	},
 	"sources": {
 		"identity.sol": {
-			"keccak256": "0xf2e8498897ee325d26005d50057e5e85e1a48fdc8044a597fdb0e7a2151c49a9",
+			"keccak256": "0x1327e5f0c408b54b61f4f9c72250743a6a88cef8ac36d3d4d074d41ed32498c7",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://ee36624714461c7345392f0e3d9cdf88ca3062daa1ce20ea7aed4f54588eaf9a",
-				"dweb:/ipfs/QmaG6LJ4vk7uDgyuquAsbr776ewGdYCsqCs6iSeRZRCiHb"
+				"bzz-raw://44d7cea3cef1dbaf38f4730a31a3386e2fe7e27098cf9f28b7dc7d6b597c7b7e",
+				"dweb:/ipfs/QmZQo4K15KsvyV4vBABTxASMEfSaGNtAF6HDTERqniqPW8"
 			]
 		}
 	},

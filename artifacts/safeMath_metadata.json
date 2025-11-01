@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.6.0+commit.26b70077"
+		"version": "0.8.30+commit.73712a01"
 	},
 	"language": "Solidity",
 	"output": {
@@ -27,17 +27,21 @@
 			}
 		],
 		"devdoc": {
-			"methods": {}
+			"kind": "dev",
+			"methods": {},
+			"version": 1
 		},
 		"userdoc": {
-			"methods": {}
+			"kind": "user",
+			"methods": {},
+			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
 			"safeMath.sol": "safeMath"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "prague",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -50,10 +54,11 @@
 	},
 	"sources": {
 		"safeMath.sol": {
-			"keccak256": "0x9eef596621ce56ec849c0b91e43a87647adc670da7ae7f1c419a951d1a73050f",
+			"keccak256": "0xfdf3dff92865bb4c878ad96503268df61caa9f8b49e90d4b6fc98c1987c2d643",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://bc90c6ed51ecf2ff427d0630616999464618bd50e9dcf9612d47e07aa26d68a1",
-				"dweb:/ipfs/QmPNLN8HB3Ru71xKeRbNmhxhwjG2CGiUgz5X3DS2dRBbM4"
+				"bzz-raw://20429224249eb369bef592426b55b5b3b624e216cad99cfe4608d3b093f4b87f",
+				"dweb:/ipfs/QmTPu42sWcHyGX6nBpKteas8cUYDzZx9Jr2Whd9jqdDCbb"
 			]
 		}
 	},
